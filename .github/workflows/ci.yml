@@ -21,4 +21,4 @@ jobs:
         run: bash ./build.bash
 
       - name: Ensure CV was updated
-        run: git add . && git diff --exit-code HEAD naga/tests/out
+        run: git add . && git diff --exit-code HEAD out
