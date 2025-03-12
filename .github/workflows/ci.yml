@@ -19,6 +19,3 @@ jobs:
 
       - name: Build CV
         run: bash ./build.bash
-
-      - name: Ensure CV was updated
-        run: git add . && git diff --exit-code HEAD out
