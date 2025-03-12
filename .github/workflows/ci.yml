@@ -15,7 +15,7 @@ jobs:
       - name: Install typst
         uses: taiki-e/install-action@v2
         with:
-          tool: typst@0.13.1
+          tool: typst-cli@0.13.1
 
       - name: Build CV
         run: bash ./build.bash
