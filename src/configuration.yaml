@@ -1,154 +1,108 @@
 contacts:
-  name: Connor Fitzgerald
-  title: Graphics Engineer
-  email: connorwadefitzgerald@gmail.com
-  address: "New York City, NY"
+  name: Daniel McNab
+  title: TODO
+  email: TODO
+  address: "Yorkshire, England"
   linkedin:
-    url: https://www.linkedin.com/in/cwfitz/
-    displayText: cwfitz
+    url: https://www.linkedin.com/in/TBD
+    displayText: TBD
   github:
-    url: https://github.com/cwfitzgerald/
-    displayText: "@cwfitzgerald"
+    url: https://github.com/DJMcNab/
+    displayText: "@DJMcNab"
   website:
-    url: https://cwfitz.com
-    displayText: cwfitz.com
+    # TODO.
+    url: https://djmcnab.com
+    displayText: djmcnab.com
 
-position: Graphics Engineer
+position: TODO
 
 # This is the date the content was last updated, not the date the resume was generated.
-content_last_updated: "March 2025"
+content_last_updated: "July 2025"
 
 jobs:
-  - position: Graphics Engineer
+  - position: User Interface/Graphics Researcher
     company:
-      name: Mozilla
-      link: https://www.mozilla.org/
+      name: Google
+      link: https://www.google.com/
     product:
-      name: Firefox (WebGPU)
-      link: https://firefox.com
+      name: Xilem
+      link: https://github.com/linebender/xilem
     contract: true
     description:
-      - Solved critical bugs blocking shipping WebGPU on Windows.
-      - Implemented f16 support, allowing many AI workloads to run.
-      - Rewrote DX12 sampler descriptor management to resolve complex architectural issue preventing many applications from functioning.
-      - Triaged and resolved high-priority GitHub issues as part of ongoing open source maintainership.
-      - Reviewed contributions from internal and external contributors, keeping the community active.
-    from: "Dec 2024"
-    to: "Apr 2025"
+      - TODO
+    from: "February 2024"
+    to: "Present"
+    location: Remote
 
-  - position: Rendering Engineer
+  - position: Web Developer
     company:
-      name: Let Eyes Equals Two
-      link: "https://github.com/leetvr"
+      name: PwC UK
+      link: "https://pwc.co.uk"
     product:
-      name: Minecraft Clone & UGC Browser Game
+      name: ""
       link: ""
-    contract: true
-    description:
-      - Fixed, debugged, and optimized Rust/Vulkan renderer within a Minecraft-compatible game client.
-      - Upgraded shader infrastructure, porting GLSL shaders to the Slang shading language, filing key bugs upstream.
-      - Used ECS patterns to make modular and scalable game code.
-      - Helped ship a User Generated Content game platform prototype in 12 working days as part of a four-person team.
-        Implemented graphics features like skyboxes, ambient occlusion, lighting, and shadows in WebGL2.
-    from: "Sep 2024"
-    to: "Nov 2024"
-
-  - position: Graphics Engineer
-    company:
-      name: Modyfi Inc.
-      link: https://www.modyfi.com/
-    product:
-      name: Modyfi
-      link: https://www.modyfi.com/
     contract: false
     description:
-      - Built and shipped core infrastructure for a realtime non-destructive image manipulation program that runs in the browser.
-      - Designed system for generating ergonomic Typescript/React bindings for a Rust/WebAssembly library.
-      - Took ownership over large system refactors to work around platform limitations.
-      - Built multiple testing solutions to ensure pixel-perfect accuracy when running on actual gpus.
-      - Managed Rust tooling and Rust/Typescript integration.
-    from: "Jun 2022"
-    to: "Sep 2024"
-    location: Remote
+      - TODO
+    from: "August 2023"
+    to: "January 2024"
+    location: Hybrid
 
-  - position: Graphics Engineer
+  - position: Degree Apprentice
     company:
-      name: Sophya Inc
-      link: "https://sowork.com/"
+      name: PwC UK
+      link: https://www.pwc.co.uk
     product:
-      name: SoWork
-      link: "https://sowork.com/"
+      name: ""
+      link: ""
     contract: false
     description:
-      - Designed and architected a ECS-based Rust/WebAssembly game engine to replace off-the-shelf Javascript game engine.
-      - Supported up to 250 concurrent users in a single room.
-      - Built asynchronous, seamless asset loading system.
-      - Designed data flows for low-overhead communication between game engine, game server, and database.
-    from: "Jan 2021"
-    to: "May 2022"
-    tags:
-      - Game Development
-      - Unity
-      - C#
-    location: Remote
+      - TODO
+    from: "September 2019"
+    to: "August 2023"
+    location: Hybrid
 
 open_source:
-  - project: wgpu
-    github: gfx-rs/wgpu
-    position: Lead Maintainer
-    from: "Jun 2020"
+  - project: Xilem
+    github: linebender/xilem
+    position: Core Maintainer
+    from: "March 2024"
     to: "Present"
     description:
-      - Developed a robust GPU testing framework to ensure correctness and stability across hardware vendors and operating systems.
-      - Built highly optimized resource state tracking infrastructure, resulting in performance improvements of up to 14x.
-      - Maintain CI that runs our test suite on every GPU API.
-      - Built infrastructure for supporting API extensions.
-      - Implemented support for bindless textures.
-      - Continued repository maintenance and process improvements.
-  - project: rend3
-    github: BVE-Reborn/rend3
-    position: Creator
-    from: "Sep 2020"
-    to: "May 2024"
+      - TODO
+  - project: Bevy
+    github: bevyengine/bevy
+    position: Contributor
+    from: "August 2020"
+    to: "July 2022"
     description:
-      - Implemented modular and composible rendergraph.
-      - Used Hi-Z occlusion culling, indirect draws, and descriptor indexing to optimize high-poly scenes.
-      - Balanced ease of use, performance, and customizability.
-      - Upstreamed many improvements into wgpu.
+      - TODO
 
 education:
   - place:
-      name: Hunter College
-      link: "https://hunter.cuny.edu/"
-    degree: "B.A."
-    major: Computer Science
-    from: "2017"
-    to: "2021"
-    location: New York City, USA
+      name: University of Leeds
+      link: "https://www.leeds.ac.uk/"
+    degree: "BSc"
+    major: Computer Science (Digital & Technology Solutions)
+    from: "2019"
+    to: "2023"
+    location: Leeds, England
 
-memberships:
-  - name: "Invited Expert"
-    org: "W3C WebGPU Working Group"
-    link: "https://www.w3.org/groups/wg/gpu/participants/#participants"
-    description: Worked alongside Google, Apple, Microsoft, and more to shape the WebGPU specification to be easy to use, powerful, and implementable. Brought my experience from building wgpu to improve the specification.
+memberships: []
+#   - name: "Invited Expert"
+#     org: "Linebender"
+#     link: "https://www.w3.org/groups/wg/gpu/participants/#participants"
+#     description: Worked alongside Google, Apple, Microsoft, and more to shape the WebGPU specification to be easy to use, powerful, and implementable. Brought my experience from building wgpu to improve the specification.
 
 skills:
   - Rust
-  - C++
-  - Python
   - WebAssembly (wasm)
   - Vulkan
-  - D3D12
-  - D3D11
-  - Metal
-  - OpenGL
-  - WebGL2
   - WebGPU
   - WGSL
-  - HLSL
-  - Slang
-  - GLSL
-  - ECS
+  - TypeScript
+  - WebGL2
+  # - ECS
   - Markdown
 
 tools:
@@ -156,12 +110,12 @@ tools:
   - Visual Studio
   - VSCode
   - git
-  - NSight
-  - Radeon GPU Profiler
+  # - NSight
+  # - Radeon GPU Profiler
   - Tracy
   - Renderdoc
-  - PIX
-  - Slack
-  - Teams
-  - Notion
-  - HackMD
+  # - PIX
+  # - Slack
+  # - Teams
+  # - Notion
+  # - HackMD

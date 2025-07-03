@@ -4,11 +4,11 @@ This is the sourcecode for my CV. It is written in [Typst](https://typst.app/hom
 
 This will output a `out/cv.pdf` and `out/cv.png` file.
 
-You can also see my latest CV on my website [cwfitz.com/cv.pdf](https://cwfitz.com/cv.pdf).
+You can also see my latest CV on my website (TODO).
 
 ## Preview
 
-#![CV](out/cv.png)
+![CV](out/cv.png)
 
 ## License
 
