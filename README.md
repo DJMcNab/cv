@@ -12,7 +12,7 @@ You can also see my latest CV on my website (TODO).
 
 ## License
 
-This source is licensed under MIT/Apache-2.0/Zlib. See the license files for more information.
+This source is licensed under MIT. See the license file for more information.
 
 Contains code from the [vantage-cv](https://typst.app/universe/package/vantage-cv) template. MIT licensed.
 

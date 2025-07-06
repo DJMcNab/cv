@@ -1,8 +1,9 @@
 contacts:
   name: Daniel McNab
-  title: TODO
-  email: TODO
-  address: "Yorkshire, England"
+  # TODO: Is there a better title for me here?
+  title: UI & 2D Graphics Engineer
+  email: daniel.mcnab6@gmail.com
+  address: "Yorkshire, UK"
   linkedin:
     url: https://www.linkedin.com/in/TBD
     displayText: TBD
@@ -13,23 +14,36 @@ contacts:
     # TODO.
     url: https://djmcnab.com
     displayText: djmcnab.com
+  # TODO: Mastodon?
 
-position: TODO
+position: UI & Graphics Engineer
+tagline: >
+ Cross platform software developer, with experience developing 2D Rendering and UI for Android.
+ Proficient in Rust, with experience in TypeScript (React) and Kotlin.
+ Open Source maintainer of Xilem, a UI library in Rust, and co-maintainer of Vello, a project consisting of several 2D renderers, specialised to different hardware.
 
 # This is the date the content was last updated, not the date the resume was generated.
 content_last_updated: "July 2025"
 
 jobs:
-  - position: User Interface/Graphics Researcher
+  - position: UI & 2D Graphics Researcher
     company:
       name: Google
       link: https://www.google.com/
     product:
-      name: Xilem
-      link: https://github.com/linebender/xilem
+      name: Vello and Xilem
+      link: https://github.com/linebender
     contract: true
     description:
-      - TODO
+      - "Decreased startup time of Vello on Android by nearly two orders of magnitude, through contributions to wgpu."
+      - "#text(weight: \"bold\")[Created the integration between the tracing Rust library and Android's native tracing API.]"
+      - "#text(weight: \"bold\")[Contributed API to wgpu to enable synchronised rendering with audio/visual content on Android.]"
+      - "#text(weight: \"bold\")[Created example demonstrating rendering using Rust code within existing Android apps.]"
+      - Designed and implemented solutions for snapshot testing despite precision issues introduced by GPUs.
+      - "#text(weight: \"bold\")[Ported the Vello Hybrid sparse strips renderer collaboration to Android.]"
+      - Developed robust plain text input for Xilem.
+      - Developed a simple cross-platform Mastodon client as a hero example for Xilem.
+      - Reviewed contributions across the Linebender project as part of ongoing open source maintenance.
     from: "February 2024"
     to: "Present"
     location: Remote
@@ -39,15 +53,18 @@ jobs:
       name: PwC UK
       link: "https://pwc.co.uk"
     product:
-      name: ""
+      name: "Internal Website"
       link: ""
     contract: false
     description:
-      - TODO
+      - "Led C\\# backend development for an internal web application, used for matching people with work suiting their skills."
+      - Developed a database design suitable for this application, and updated this as requirements changed.
+      - Supported developers working on the React single page application frontend, including providing accessibility guidance.
+      - Developed a solution for theme selection which live-updated across all local instances of the application.
     from: "August 2023"
     to: "January 2024"
     location: Hybrid
-
+  
   - position: Degree Apprentice
     company:
       name: PwC UK
@@ -57,65 +74,71 @@ jobs:
       link: ""
     contract: false
     description:
-      - TODO
-    from: "September 2019"
-    to: "August 2023"
+      - "Completed a 14 month internship between 2#super([nd]) and 3#super([rd]) years of University."
+      - This was part of my level 6 Apprenticeship, with a Digital and Technology Solutions (Software Engineer) specialisation, achieved as part of my degree course.
+      - Supported a team working in UI automation by developing re-usable workflows (such as to navigate to a specific page in an internal app).
+      - Created processes to ensure routine report creation was accurate and efficient, unlocking more time for senior leadership.
+    from: "July 2021"
+    to: "August 2022"
     location: Hybrid
 
 open_source:
   - project: Xilem
     github: linebender/xilem
-    position: Core Maintainer
+    position: Lead Maintainer
     from: "March 2024"
     to: "Present"
     description:
-      - TODO
+      - Took over development of Xilem from Raph Levien, allowing him more time for fundamental 2D graphics research.
+      - "#text(weight: \"bold\")[Ported several examples to Android.]"
+      - Built the lifecycle integration with async operations and background tasks.
+      - Developed the second version of Xilem, which transitioned to a different widget toolkit with many more features.
+  - project: Vello
+    github: linebender/vello
+    position: Maintainer
+    from: "October 2022"
+    to: "Present"
+    description:
+      - Added support for COLR fonts, enabling Emoji support.
+      - Focused on developer experience, including Snapshot Testing and shader preprocessing.
+      - Collaborated with upstream projects (wgpu) as part of resolving issues.
+      - Provided review and design input as the Sparse Strips collaboration has developed.
   - project: Bevy
     github: bevyengine/bevy
     position: Contributor
     from: "August 2020"
     to: "July 2022"
     description:
-      - TODO
+      - Drove a relicensing effort to make Bevy more compatible with the rest of the Rust ecosystem.
+      - Significantly reduced noise when creating systems; each system previously needed a call to the `.system()` method.
 
 education:
   - place:
       name: University of Leeds
       link: "https://www.leeds.ac.uk/"
-    degree: "BSc"
+    degree: "BSc (Hons)"
     major: Computer Science (Digital & Technology Solutions)
     from: "2019"
     to: "2023"
     location: Leeds, England
 
-memberships: []
-#   - name: "Invited Expert"
-#     org: "Linebender"
-#     link: "https://www.w3.org/groups/wg/gpu/participants/#participants"
-#     description: Worked alongside Google, Apple, Microsoft, and more to shape the WebGPU specification to be easy to use, powerful, and implementable. Brought my experience from building wgpu to improve the specification.
-
 skills:
   - Rust
-  - WebAssembly (wasm)
   - Vulkan
+  - WebAssembly (wasm)
   - WebGPU
   - WGSL
+  - Kotlin
   - TypeScript
   - WebGL2
-  # - ECS
-  - Markdown
+  - C#
+  - SQL
+  - Tailwind
 
 tools:
   - GitHub
-  - Visual Studio
   - VSCode
   - git
-  # - NSight
-  # - Radeon GPU Profiler
   - Tracy
   - Renderdoc
-  # - PIX
-  # - Slack
-  # - Teams
-  # - Notion
-  # - HackMD
+  - DaVinci Resolve
