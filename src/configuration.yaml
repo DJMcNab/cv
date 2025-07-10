@@ -18,7 +18,7 @@ contacts:
 
 position: UI & Graphics Engineer
 tagline: >
- Cross platform software developer, with experience developing 2D Rendering and UI for Android.
+ Cross platform software developer, with experience developing 2D Rendering and cross-platform UI.
  Proficient in Rust, with experience in TypeScript (React) and Kotlin.
  Open Source maintainer of Xilem, a UI library in Rust, and co-maintainer of Vello, a project consisting of several 2D renderers, specialised to different hardware.
 
@@ -35,14 +35,15 @@ jobs:
       link: https://github.com/linebender
     contract: true
     description:
+      - "Contributed API to wgpu to enable synchronised rendering with audio/visual content on Android."
+      - "#text(weight: \"bold\")[Collaborated with team from Canva developing sparse strips renderers for Vello since March 2025.]"
+      - "Created example demonstrating rendering using Rust code within existing Android apps."
+      - "#text(weight: \"bold\")[Designed and implemented solutions for snapshot testing despite precision issues introduced by GPUs.]"
       - "Decreased startup time of Vello on Android by nearly two orders of magnitude, through contributions to wgpu."
-      - "#text(weight: \"bold\")[Created the integration between the tracing Rust library and Android's native tracing API.]"
-      - "#text(weight: \"bold\")[Contributed API to wgpu to enable synchronised rendering with audio/visual content on Android.]"
-      - "#text(weight: \"bold\")[Created example demonstrating rendering using Rust code within existing Android apps.]"
-      - Designed and implemented solutions for snapshot testing despite precision issues introduced by GPUs.
-      - "#text(weight: \"bold\")[Ported the Vello Hybrid sparse strips renderer collaboration to Android.]"
-      - Developed robust plain text input for Xilem.
+      - "Ported the Vello Hybrid sparse strips renderer collaboration to Android."
       - Developed a simple cross-platform Mastodon client as a hero example for Xilem.
+      - Developed robust plain text input for Xilem.
+      - Created the integration between the tracing Rust library and Android's native tracing API."
       - Reviewed contributions across the Linebender project as part of ongoing open source maintenance.
     from: "February 2024"
     to: "Present"
@@ -59,8 +60,8 @@ jobs:
     description:
       - "Led C\\# backend development for an internal web application, used for matching people with work suiting their skills."
       - Developed a database design suitable for this application, and updated this as requirements changed.
-      - Supported developers working on the React single page application frontend, including providing accessibility guidance.
-      - Developed a solution for theme selection which live-updated across all local instances of the application.
+      - "#text(weight: \"bold\")[Supported developers working on the React single page application frontend, including providing accessibility guidance.]"
+      - "#text(weight: \"bold\")[Developed a solution for theme selection which live-updated across all local instances of the application.]"
     from: "August 2023"
     to: "January 2024"
     location: Hybrid
@@ -90,8 +91,8 @@ open_source:
     to: "Present"
     description:
       - Took over development of Xilem from Raph Levien, allowing him more time for fundamental 2D graphics research.
-      - "#text(weight: \"bold\")[Ported several examples to Android.]"
       - Built the lifecycle integration with async operations and background tasks.
+      - "Ported several examples to Android."
       - Developed the second version of Xilem, which transitioned to a different widget toolkit with many more features.
   - project: Vello
     github: linebender/vello
@@ -99,10 +100,10 @@ open_source:
     from: "October 2022"
     to: "Present"
     description:
-      - Added support for COLR fonts, enabling Emoji support.
+      - "#text(weight: \"bold\")[Added support for COLR fonts, enabling Emoji rendering.]"
       - Focused on developer experience, including Snapshot Testing and shader preprocessing.
       - Collaborated with upstream projects (wgpu) as part of resolving issues.
-      - Provided review and design input as the Sparse Strips collaboration has developed.
+      - "#text(weight: \"bold\")[Provided review and design input as the Sparse Strips collaboration has developed.]"
   - project: Bevy
     github: bevyengine/bevy
     position: Contributor
