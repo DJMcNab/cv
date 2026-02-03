@@ -17,8 +17,8 @@
     //   display: configuration.contacts.linkedin.displayText,
     //   icon: "linkedin.png",
     // ),
-    (name: "location", link: "", display: configuration.contacts.address),
-    (name: "calendar", link: "", display: configuration.content_last_updated),
+    (name: "location", display: configuration.contacts.address),
+    (name: "calendar", display: configuration.content_last_updated),
   ),
   [
     == Job Experience

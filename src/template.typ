@@ -20,7 +20,11 @@
       }
 
       if "display" in service.keys() {
-        link(service.link)[#{ service.display }]
+        if "link" in service.keys() {
+          link(service.link)[#{ service.display }]
+        } else {
+          text(service.display)
+        }
       } else {
         link(service.link)
       }

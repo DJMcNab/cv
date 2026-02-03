@@ -23,10 +23,10 @@ tagline: >
  Open Source maintainer of Xilem, a UI library in Rust, and co-maintainer of Vello, a project consisting of several 2D renderers, each specialised to different hardware.
 
 # This is the date the content was last updated, not the date the resume was generated.
-content_last_updated: "August 2025"
+content_last_updated: "February 2026"
 
 jobs:
-  - position: UI & 2D Graphics Researcher
+  - position: 2D Graphics Researcher
     company:
       name: Google
       link: https://www.google.com/
@@ -42,10 +42,10 @@ jobs:
       - Developed a simple cross-platform Mastodon client as a hero example for Xilem.
       - "Designed and implemented solutions for snapshot testing despite precision issues introduced by GPUs."
       - Developed robust plain text input for Xilem.
-      - Created the integration between the tracing Rust library and Android's native tracing API."
+      - Created the integration between the tracing Rust library and Android's native tracing API.
       - Reviewed contributions across the Linebender project as part of ongoing open source maintenance.
     from: "February 2024"
-    to: "Present"
+    to: "January 2026"
     location: Remote
 
   - position: Web Developer
@@ -59,8 +59,8 @@ jobs:
     description:
       - "Led C\\# backend development for an internal web application, used for matching people with work suiting their skills."
       - Developed a database design suitable for this application, and updated this as requirements changed.
-      - Supported developers working on the React single page application frontend, including providing accessibility guidance."
-      - Developed a solution for theme selection which live-updated across all local instances of the application."
+      - Supported developers working on the React single page application frontend, including providing accessibility guidance.
+      - Developed a solution for theme selection which live-updated across all local instances of the application.
     from: "August 2023"
     to: "January 2024"
     location: Hybrid
